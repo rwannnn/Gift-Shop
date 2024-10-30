@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>My Flower Shop</title>
+</head>
+
+<body>
+    <div class="header1">
+        <div class="features">
+            <div class="feature-item">
+                <img class="icon" src="images/fast-delivery.png">
+                <span class="text">Express Delivery</span>
+            </div>
+            <div class="feature-item">
+                <img class="icon" src="images/location.png">
+                <span class="text"> No Address Hassle</span>
+            </div>
+            <div class="feature-item">
+                <img class="icon" src="images/surprise.png">
+                <span class="text">Premium Flowers & Gifts</span>
+            </div>
+        </div>
+    </div>
+    <div class="header2">
+        <div class="left-header2">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <center>
+                    <h1>Explore</h1>
+                </center>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="#">
+                                    <img src="images/58f5d2b0-02f8-4c55-96c7-f49c59c7cf42.jpg">Momments
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/c1f99d06-62e5-48ec-ba0c-a28cb20d7072.png">Recipients
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#">
+                                    <img src="images/9d89df0e-3b0f-49b9-912d-7f65a1259622.jpg">Express delivery
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/751016d9-0e8d-4ddc-8910-905c4204d2a8.jpg">Floral subscription
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <center>
+                    <h5>Brands you love</h5>
+                </center>
+                <div class="wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a class="brands" href="#"><img
+                                            src="images/10004a75-02eb-4b47-a50b-f0966c731e41.png"></a></td>
+                                <td><a class="brands" href="#"><img
+                                            src="images/513ad4cd-965a-4b72-a72d-31e4c4475c38.png"></a></td>
+                                <td> <a class="brands" href="#"><img
+                                            src="images/5604b12f-43b4-481f-bebc-54c78785a70b.png"></a></td>
+                                <td> <a class="brands" href="#"><img
+                                            src="images/8faed208-b695-403d-bc3a-84a2c92541f4.png"></a></td>
+                                <td> <a class="brands" href="#"><img
+                                            src="images/b498bbc2-0e59-487c-9b08-209d3dc110e5.png"></a></td>
+                                <td><a class="brands" href="#"><img
+                                            src="images/a22211d7-b58c-4388-ba87-2f29e825039b.png"></a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="brands" href="#"><img
+                                            src="images/d5c05b42-8576-44f2-bc71-02aa9d997f10.png"></a></td>
+                                <td><a class="brands" href="#"><img
+                                            src="images/c886199e-874a-4cb5-a2de-bfb2ae4a8ba3.png"></a></td>
+                                <td> <a class="brands" href="#"><img src="images/5.png"></a></td>
+                                <td> <a class="brands" href="#"><img src="images/6.png"></a></td>
+                                <td> <a class="brands" href="#"><img src="images/7.png"></a></td>
+                                <td><a class="brands" href="#"><img src="images/8.png"></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- 
+                /////to add more images
+                <td>
+                    <a class="brands" href="#"><img src="images/"></a>
+                </td>
+                -->
+                </div>
+            </div>
+            <div id="main">
+                <span style="font-size:25px;cursor:pointer;font-weight:bold;" onclick="openNav()">&#9776; Menu</span>
+            </div>
+            <div class="searching">
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <img src="images/search.png">
+                    <span class="search-text">Search</span>
+                </button>
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content" style="height: 170px;">
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">What are you looking for ?</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <input type="text" placeholder="  Type here.." style="padding: 8px;">
+                                <a href="#" data-bs-toggle="tooltip" title="Submit" data-bs-placement="bottom"><img
+                                        src="images/magnifying-glass (1).png" style="width: 40px; height: 40px;"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center-header2">
+            <center>
+                <img src="images/logo-removebg-preview (1).png">
+            </center>
+        </div>
+        <div class="right-header2 ">
+            <div class="login">
+                <a href="#"><img src="images/profile.png"> My account</a>
+            </div>
+            <div class="cart">
+                <a href="#"><img src="images/shopping-cart (1).png"> Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="fasel">
+    </div>
+    <br>
+    <div class="content">
+        <div class="ads1">
+            <center>
+                <h3>Discover something new</h3>
+            </center>
+            <table>
+                <tbody>
+                    <tr>
+                        <td> <a href="#"><img class="ads" src="images/1.jpg"></a>
+                            <div class="text-block">
+                                <h5>Your floral subscription</h5>
+                                <a href="#" class="hove">Explore now</a>
+                            </div>
+                        </td>
+                        <td> <a href="#"><img class="ads" src="images/2.jpg"></a>
+                            <div class="text-block">
+                                <h5>Express delivery</h5>
+                                <a href="#">Gift now</a>
+                            </div>
+                        </td>
+                        <td> <a href="#"><img class="ads" src="images/3.jpg"></a>
+                            <div class="text-block">
+                                <h5>Discover the perfect birthday gift!</h5>
+                                <a href="#">Gift now</a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="category">
+            <center>
+                <h3>Everything is better with flowers</h3>
+                <br>
+            </center>
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col">
+                                <img src="images/11.jpg" class="d-block w-100">
+                                <p>Men's gifting</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/12.jpg" class="d-block w-100">
+                                <p>Women's gifting</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/13.jpg" class="d-block w-100">
+                                <p>Only flowers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <img src="images/14.jpg" class="d-block w-100">
+                                <p>Chocolates</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/15.jpg" class="d-block w-100">
+                                <p>Bouquets</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/16.jpg" class="d-block w-100">
+                                <p>Flowers in vases</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <img src="images/17.jpg" class="d-block w-100">
+                                <p>Watches</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/18.jpg" class="d-block w-100">
+                                <p>Plants</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/19.jpg" class="d-block w-100">
+                                <p>Premium gifts</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+        </div>
+        <br>
+        <div class="category gifts">
+            <center>
+                <h3>Gifts for every moment</h3>
+                <br>
+            </center>
+            <!-- Carousel -->
+            <div id="demo1" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col">
+                                <img src="images/21.png" class="d-block w-100">
+                                <p>Happy birthday</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/22.png" class="d-block w-100">
+                                <p>Get well soon</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/23.png" class="d-block w-100">
+                                <p>I love you</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <img src="images/24.png" class="d-block w-100">
+                                <p>Congratulations</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/25.png" class="d-block w-100">
+                                <p>Anniversary</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/26.png" class="d-block w-100">
+                                <p>Wedding</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <img src="images/27.png" class="d-block w-100">
+                                <p>Graduation</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/28.png" class="d-block w-100">
+                                <p>New Baby Born</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/29.png" class="d-block w-100">
+                                <p>Housewarming</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+        </div>
+        <div class="gifting" style="padding: 30px;">
+            <div class="gifts-header">
+                <h3 style="font-size: 45px;">Premium gifting</h3>
+                <a href="#" class="anchor">Choose gifts now</a>
+            </div>
+            <br>
+            <div class="i" style="display: inline-flex; padding: 20px; gap:35px;">
+                <div class="imgs">
+                    <a href="#"><img src="images/31.jpg"></a>
+                    <br>
+                    <p>EGP <span style="font-size: 28px; font-weight: bold;">20,299</span> </p>
+                    <p>Patchi Chocolate Box 250g | 15 White Roses</p>
+                </div>
+                <div class="imgs">
+                    <a href="#"><img src="images/32.jpg"></a>
+                    <br>
+                    <p>EGP <span style="font-size: 28px; font-weight: bold;">1,599</span></p>
+                    <p>Carolina Herrera Sunglasses | Lovely Roses</p>
+                </div>
+                <div class="imgs">
+                    <a href="#"><img src="images/35.jpg"></a>
+                    <br>
+                    <p>EGP <span style="font-size: 28px; font-weight: bold;">6,299</span>
+                    </p>
+                    <p>Gorgeous Yellow | 100 Rose Bouquet</p>
+                </div>
+            </div>
+        </div>
+        <div class="gifting" style="padding: 30px;">
+            <div class="gifts-header">
+                <h3 style="font-size: 45px;">Add a splendor of luxury to your look</h3>
+                <a href="#" class="anchor">Choose gifts now</a>
+            </div>
+            <br>
+            <div class="i" style="display: inline-flex; padding: 20px; gap:35px;">
+                <div class="imgs">
+                    <a href="#"><img src="images/41.jpg"></a>
+                    <br>
+                    <p>EGP <span style="font-size: 28px; font-weight: bold;">27,299</span> </p>
+                    <p>Tissot Chrono XL Men's Watch</p>
+                </div>
+                <div class="imgs">
+                    <a href="#"><img src="images/40.jpg"></a>
+                    <br>
+                    <p>EGP <span style="font-size: 28px; font-weight: bold;">11,999</span></p>
+                    <p>Siran by Iram Irregular Shaped Emerald Stones Necklace | Flowers Vase</p>
+                </div>
+                <div class="imgs">
+                    <a href="#"><img src="images/42.jpg"></a>
+                    <br>
+                    <p>EGP <span style="font-size: 28px; font-weight: bold;">30,099</span>
+                    </p>
+                    <p>Tissot Supersport Chrono Watch</p>
+                </div>
+            </div>
+        </div>
+        <div class="gifting" style="padding: 30px;">
+            <div class="gifts-header">
+                <h3 style="font-size: 45px;">Elegant brands, luxury perfumes</h3>
+                <a href="#" class="anchor">Choose gifts now</a>
+            </div>
+            <br>
+            <div class="i" style="display: inline-flex; padding: 20px; gap:35px;">
+                <div class="imgs">
+                    <a href="#"><img src="images/50.jpg"></a>
+                    <br>
+                    <p>EGP <span style="font-size: 28px; font-weight: bold;">9,199</span> </p>
+                    <p>Jean Paul Gaultier Scandal Pour Homme | Baby Roses</p>
+                </div>
+                <div class="imgs">
+                    <a href="#"><img src="images/51.jpg"></a>
+                    <br>
+                    <p>EGP <span style="font-size: 28px; font-weight: bold;">8,999</span></p>
+                    <p>Dior Sauvage EDP for Men | 100ml</p>
+                </div>
+                <div class="imgs">
+                    <a href="#"><img src="images/52.jpg"></a>
+                    <br>
+                    <p>EGP <span style="font-size: 28px; font-weight: bold;">7,599</span>
+                    </p>
+                    <p>Paco Rabanne Fame Women EDP | White Flowers</p>
+                </div>
+            </div>
+        </div>
+        <div class="gifting" style="padding: 30px;">
+            <div class="gifts-header">
+                <h3 style="font-size: 45px;">Elegant brands, luxury perfumes</h3>
+                <a href="#" class="anchor">Choose gifts now</a>
+            </div>
+            <br>
+            <div class="i" style="display: inline-flex; padding: 20px; gap:35px;">
+                <div class="imgs">
+                    <a href="#"><img src="images/60.jpg"></a>
+                    <br>
+                    <p>EGP <span style="font-size: 28px; font-weight: bold;">11,399</span> </p>
+                    <p>Miss L by L'azurde Circle Chain Bracelet | Red Roses</p>
+                </div>
+                <div class="imgs">
+                    <a href="#"><img src="images/61.jpg"></a>
+                    <br>
+                    <p>EGP <span style="font-size: 28px; font-weight: bold;">10,999</span></p>
+                    <p>L'azurde Love Gold Bracelet | White Roses Vase</p>
+                </div>
+                <div class="imgs">
+                    <a href="#"><img src="images/62.jpg"></a>
+                    <br>
+                    <p>EGP <span style="font-size: 28px; font-weight: bold;">10,599</span>
+                    </p>
+                    <p>Ray ban Sunglasses | Pure Delight Vase</p>
+                </div>
+            </div>
+        </div>
+        <div class="category gifts persons">
+            <div class="gifts-header" style="padding: 30px;">
+                <h3 style="font-size: 45px;">Gift by recipient</h3>
+                <a href="#" class="anchor">View all</a>
+            </div>
+            <!-- Carousel -->
+            <div id="demo2" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                </div>
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col">
+                                <img src="images/70.png" class="d-block w-100">
+                                <p>Father</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/71.png" class="d-block w-100">
+                                <p>Mother</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/72.png" class="d-block w-100">
+                                <p>Husband</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/73.png" class="d-block w-100">
+                                <p>Wife</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/78.png" class="d-block w-100">
+                                <p>Aunt</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <img src="images/74.png" class="d-block w-100">
+                                <p>Friends</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/75.png" class="d-block w-100">
+                                <p>GrandFather</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/76.png" class="d-block w-100">
+                                <p>GrandMother</p>
+                            </div>
+                            <div class="col">
+                                <img src="images/77.png" class="d-block w-100">
+                                <p>Uncle</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+        <div class="final-img">
+            <div style="padding: 30px;">
+                <h3 style="font-size: 45px;">A scented gift</h3>
+            </div>
+            <center>
+                <a href="#" class="img-hover">
+                    <img src="images/final.jpg"
+                        style="padding: 25px; border-radius: 100px; width: 100%; height: 450px;">
+                </a>
+            </center>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container my-5">
+            <footer class="footer">
+                <!-- Grid container -->
+                <div class="container p-4">
+                    <!--Grid row-->
+                    <div class="row my-4">
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
+                                style="width: 150px; height: 150px;">
+                                <img src="images/logo-removebg-preview (1).png" height="70" alt="" />
+                            </div>
+                            <p class="text-center">Online Flowers & Gifts Delievry</p>
+                            <center>
+                                <a href="#" class="fa fa-facebook faa"></a>
+                                <a href="#" class="fa fa-twitter faa"></a>
+                                <a href="#" class="fa fa-instagram faa"></a>
+                                <a href="#" class="fa fa-pinterest faa"></a>
+                            </center>
+                        </div>
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase mb-4">Explore Floward</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <a href="#!" class="text-white"><i class="fas pe-3"></i>Flowers</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#!" class="text-white"><i class="fas pe-3"></i>Cakes</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#!" class="text-white"><i class="fas pe-3"></i>Gifts</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#!" class="text-white"><i class="fas pe-3"></i>Birthday</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#!" class="text-white"><i class="fas pe-3"></i>Anniversary</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#!" class="text-white"><i class="fas pe-3"></i>Occasions</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#!" class="text-white"><i class="fas pe-3"></i>Bestsellers</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#!" class="text-white"><i class="fas pe-3"></i>Brands</a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#!" class="text-white"><i class="fas pe-3"></i>Premium Gifts</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase mb-4">Get to know us</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <a href="#!" class="text-white"><i class="fas pe-3"></i>Partner With us
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#!" class="text-white"><i class="fas pe-3"></i>Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase mb-4">Customer service</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#!" class="text-white"><i class="fas pe-3"></i>Contact us</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white"><i class="fas pe-3"></i>FAQ</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </div>
+                <!-- Grid container -->
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                    © 2020 Copyright:
+                    <a class="text-white" href="#">Rawan Ezzat</a>
+                </div>
+                <!-- Copyright -->
+            </footer>
+        </div>
+        <!-- End of .container -->
+    </div>
+    <div class="scrolltop" onclick="scrolltotop()">
+        <img src="images/up-arrow.png">
+    </div>
+    <script>
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "550px";
+        }
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+        function scrollLeft() {
+            document.getElementById('scrollContainer').scrollBy({ left: -300, behavior: 'smooth' });
+        }
+        function scrollRight() {
+            document.getElementById('scrollContainer').scrollBy({ left: 300, behavior: 'smooth' });
+        }
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        function scrolltotop() {
+            window.scroll(10, 10);
+        }
+    </script>
+    </div>
+</body>
+
+</html>

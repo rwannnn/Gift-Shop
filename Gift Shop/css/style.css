@@ -1,0 +1,313 @@
+.header1 {
+  background-color: rgb(247, 246, 242);
+  height: 50px;
+  float: left;
+  width: 100%;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(194, 27, 105); 
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.text {
+  font-weight: bold;
+}
+
+.sidenav {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: white; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+  color: rgb(194, 27, 105);
+}
+.sidenav a:hover {
+  color: #818181;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.header2 {
+  height: 130px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(194, 27, 105); 
+  display: inline-flex;
+  width: 100%;
+  padding-top: 20px;
+}
+.col-6 {
+  display: flex;
+}
+td img {
+  border-radius: 30px;
+  width: 200px;
+  height: 220px;
+}
+h2 {
+  padding: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h5 {
+  padding: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.wrapper {
+  max-height: 1000px;
+  display: flex;
+  overflow-x: auto;
+}
+.brands img {
+  width: 130px;
+  height: 80px;
+}
+.searching {
+  padding: 20px;
+}
+.search-text {
+  color: rgb(194, 27, 105);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+.searching input {
+  border-radius: 30px; 
+  width: 350px;
+}
+.searching img {
+  width: 40px;
+  height: 30px;
+}
+.left-header2 {
+  display: inline-flex;
+  gap: 5px;
+  float: left;
+}
+.center-header2 {
+  height: 30px;
+  width: 40px;
+  align-content: center;
+  padding-left: 150px;
+  padding-bottom: 150px;
+}
+.center-header2 img {
+  width: 300px;
+  height: 105px;
+}
+.login a {
+  text-decoration: none;
+  color: rgb(194, 27, 105);
+  font-weight: bold;
+}
+.login a img {
+  width: 40px;
+  height: 30px;
+}
+.cart a {
+  text-decoration: none;
+  color: rgb(194, 27, 105);
+  font-weight: bold;
+}
+.cart a img {
+  width: 40px;
+  height: 30px;
+}
+.right-header2 {
+  float: right;
+  display: inline-flex;
+  gap: 50px;
+  padding-left: 450px;
+  padding-top: 22px;
+}
+.fasel {
+  height: 2px;
+  background-color: rgb(247, 246, 242);
+}
+td a .ads {
+  width: 95%;
+  height: 600px;
+  padding: 5px;
+  margin: 5px;
+}
+h3 {
+  color: rgb(194, 27, 105);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.text-block {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  bottom: 120px;
+  margin: 10px;
+  height: 100px;
+  border-radius: 30px;
+  width: 93%;
+  color: white;
+}
+.text-block a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  padding: 12px;
+  text-align: center;
+  float: left;
+  bottom: 20px;
+}
+.carousel-indicators button {
+  background-color: rgb(194, 27, 105) !important;
+}
+
+.carousel-item img {
+  display: inline-flex !important;
+  height: 230px;
+}
+
+.carousel-item p {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(194, 27, 105);
+  margin-top: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgb(194, 27, 105) !important;
+  width: 30px;
+  height: 100px;
+  margin: 60px;
+}
+
+.carousel-item {
+  height: 350px;
+  padding: 15px;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  flex: 1;
+  margin: 0 5px;
+}
+.gifts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gifts-header h3 {
+  font-size: 45px;
+}
+
+.anchor {
+  text-decoration: none;
+  color: rgb(247, 246, 246);
+  background-color:rgb(194, 27, 105) ;
+  padding: 8px;
+  border-radius: 20px;
+}
+.gifts-header a:hover{
+  background-color: rgb(250, 35, 135);
+}
+.imgs {
+  text-align:left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.imgs img {
+  border-radius: 10px;
+}
+
+.imgs p {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  color: rgb(194, 27, 105); 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.footer{
+  background-color: rgb(194, 27, 105);
+  color: white;
+  height: 528px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.scrolltop{
+  position: fixed;
+  bottom: 30px;
+  right:30px;
+  padding: 10px;
+  background-color: white;
+  color:#f0f0f0;
+  border-radius: 50px;
+  border-radius: 1px solid black;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+.scrolltop img{
+  width:30px;
+  height: 30px;
+}
+.scrolltop:hover{
+  background-color: rgb(250, 35, 135);
+}
+.faa {
+  padding: 20px;
+  font-size: 50px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white;
+
+}
+.faa:hover {
+  opacity: 0.7;
+}
+.text-block a:hover{
+  background-color: rgb(250, 35, 135)
+}
